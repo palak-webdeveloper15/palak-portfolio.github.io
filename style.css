@@ -1,0 +1,126 @@
+.gradient-background {
+  background: linear-gradient(300deg, #574964, #9F8383, #FFDAB3);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.me{
+    border-radius: 50%;
+}
+
+.cal-weekdays{
+  display: flex;
+  justify-content: space-between;
+}
+
+.gr{
+  display: flex;
+  justify-content: space-between;
+}
+
+.cal-month{
+  text-align: center;
+}
+
+.imp-card{
+  height: 100%;
+}
+
+.white-wanted{
+  color:white
+}
+
+.image-background{
+  background-position: center;
+  height:100vh;
+  background-size: cover;
+  background-repeat:no-repeat;
+}
+
+.carousel-image{
+  width: 100%;
+  object-position: top;
+  object-fit: cover;
+}
+
+@media (max-width:780px){
+  .carousel-image{
+    height: 400px;
+  }
+}
+
+@media (min-width:781px) and (max-width:1200px){
+  .carousel-image{
+    height: 500px;
+  }
+}
+
+@media (min-width: 1201px){
+  .carousel-image{
+    height: 600px;
+  }
+}
+
+.separate{
+  object-position: center;
+}
+
+.fav-images{
+  width: 100%;
+  object-position: top;
+  object-fit: cover;
+}
+
+@media (max-width:1200px){
+  .fav-images{
+    height: 300px;
+  }
+}
+
+@media (min-width: 1201px){
+  .fav-images{
+    height: 400px;
+  }
+}
+
+.another{
+  object-position: bottom;
+}
+
+.another-1{
+  object-position: center;
+}
+
+.svg-img{
+  height:100px;
+  width:100px;
+  border-radius: 75%;
+}
+
+.svg-div{
+  height:100px;
+  width:100px;
+}
+
+body{
+  background-color: #C8AAAA;
+}
+
+.container-contact{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
+}
